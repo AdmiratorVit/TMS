@@ -6,6 +6,13 @@
 }
 
 
+.parent{
+    height: 747px;
+    width: 1510px;
+    margin: auto;
+    position: relative;
+}
+
 .header{
     height: 747px;
     width: 1510px;
@@ -13,6 +20,7 @@
     top: 0px;
     border-radius: 0px;
     position: absolute;
+
 
     background-image:url(..//img/img.png);
     background-color: #252B49;
@@ -131,7 +139,7 @@ border: 1px solid #BABBC5;
 ul{
     display: inline-flex;
     position: absolute;
-    right: 170px;
+    right: 200px;
     top: 44px;
 }
 
