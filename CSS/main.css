@@ -498,3 +498,95 @@ position: relative;
     color: #6C7279;
 
 }
+
+.block3{
+    display: grid;
+    grid-template-columns: calc(100%/6) calc(100%/6) calc(100%/6) calc(100%/6) calc(100%/6) calc(100%/6);
+    flex-wrap: wrap;
+    position: relative;
+    border: #FF4343 solid 1px;
+    width: 1510px;
+    margin: auto;
+}
+
+.block3__img1{
+    background-image:url(../img/work_1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    Width: 378px;
+    Height: 340px;
+    top: 125px;
+    left: 0px;
+position: absolute;
+}
+
+.block3__img2{
+    background-image:url(../img/work_2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    Width: 378px;
+    Height: 340px;
+    top: 125px;
+    left: 378px;
+    position: absolute;
+}
+.block3__img3{
+    background-image:url(../img/Rectangle\ 17.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    Width: 378px;
+    Height: 340px;
+    top: 125px;
+    left: 756px;
+    position: absolute;
+}
+.block3__img4{
+    background-image:url(../img/work_4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    Width: 378px;
+    Height: 340px;
+    top: 125px;
+    left: 1134px;
+    position: absolute;
+}
+.block3__img5{
+    background-image:url(../img/work_5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    Width: 378px;
+    Height: 340px;
+    top: 340px;
+    left: 0px;
+    position: absolute;
+}
+.block3__img6{
+    background-image:url(../img/work_6.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    Width: 378px;
+    Height: 340px;
+    top: 340px;
+    left: 378px;
+    position: absolute;
+}
+.block3__img7{
+    background-image:url(../img/work_7.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    Width: 378px;
+    Height: 340px;
+    top: 340px;
+    left: 756px;
+    position: absolute;
+}
+.block3__img8{
+    background-image:url(../img/work_8.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    Width: 378px;
+    Height: 340px;
+    top: 340px;
+    left: 1134px;
+    position: absolute;
+}
