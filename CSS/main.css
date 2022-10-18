@@ -642,3 +642,317 @@ color: #FFFFFF;
     left: 1134px;
     position: absolute;
 }
+
+.parent4{
+    height: 747px;
+    width: 1510px;
+    margin: auto;
+    position: relative;
+}
+
+.block4{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    flex-wrap: wrap;
+    position: relative;
+
+    width: 1510px;
+    margin: auto;
+    border: #FF4343 2px solid;
+}
+
+.block4__item1_pic{
+    background-image:url(../img/Rectangle\ 24.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 270px;
+    height: 270px;
+    top: 1538px;
+    left: 166px;
+    position: absolute;
+}
+
+.block4__item2_pic{
+    background-image:url(../img/Rectangle\ 25.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 270px;
+    height: 270px;
+    top: 1538px;
+    left: 466px;
+    position: absolute;
+}
+
+.block4__item3_pic{
+    background-image:url(../img/Rectangle\ 26.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 270px;
+    height: 270px;
+    top: 1538px;
+    left: 766px;
+    position: absolute;
+}
+
+.block4__item4_pic{
+    background-image:url(../img/Rectangle\ 27.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 270px;
+    height: 270px;
+    top: 1538px;
+    left: 1066px;
+    position: absolute;
+}
+
+.block4__item1_name{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #2D3033;
+    width: 270px;
+    height: 270px;
+    top: 1718px;
+    left: 166px;
+    position: absolute;
+}
+
+.block4__item2_name{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #2D3033;
+    width: 270px;
+    height: 270px;
+    top: 1718px;
+    left: 466px;
+    position: absolute;
+}
+
+.block4__item3_name{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #2D3033;
+    width: 270px;
+    height: 270px;
+    top: 1718px;
+    left: 766px;
+    position: absolute;
+}
+
+.block4__item4_name{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-transform: capitalize;
+    color: #2D3033;
+    width: 270px;
+    height: 270px;
+    top: 1718px;
+    left: 1066px;
+    position: absolute;
+}
+
+.block4__item1_position{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    
+    color: #FF4343;
+    width: 270px;
+    height: 270px;
+    top: 1748px;
+    left: 166px;
+    position: absolute;
+}
+
+.block4__item2_position{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    
+    color: #FF4343;
+    width: 270px;
+    height: 270px;
+    top: 1748px;
+    left: 466px;
+    position: absolute;
+}
+
+.block4__item3_position{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    
+    color: #FF4343;
+    width: 270px;
+    height: 270px;
+    top: 1748px;
+    left: 766px;
+    position: absolute;
+}
+
+.block4__item4_position{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    
+    color: #FF4343;
+    width: 270px;
+    height: 270px;
+    top: 1748px;
+    left: 1066px;
+    position: absolute;
+}
+
+
+.block4__item1_txt{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    
+    color: #6C7279;
+    width: 270px;
+    height: 270px;
+    top: 1862px;
+    left: 166px;
+    position: absolute;
+}
+
+.block4__item2_txt{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    
+    color: #6C7279;
+    width: 270px;
+    height: 270px;
+    top: 1862px;
+    left: 466px;
+    position: absolute;
+}
+
+.block4__item3_txt{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    
+    color: #6C7279;
+    width: 270px;
+    height: 270px;
+    top: 1862px;
+    left: 766px;
+    position: absolute;
+}
+
+.block4__item4_txt{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    
+    color: #6C7279;
+    width: 270px;
+    height: 270px;
+    top: 1862px;
+    left: 1066px;
+    position: absolute;
+}
+.block4__item1_SS{
+    background-image:url(../img/social.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 132px;
+    height: 51px;
+    top: 2115px;
+    left: 163px;
+    position: absolute;
+}
+
+.block4__item2_SS{
+    background-image:url(../img/social.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 132px;
+    height: 51px;
+    top: 2115px;
+    left: 463px;
+    position: absolute;
+}
+
+.block4__item3_SS{
+    background-image:url(../img/social.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 132px;
+    height: 51px;
+    top: 2115px;
+    left: 763px;
+    position: absolute;
+}
+
+.block4__item4_SS{
+    background-image:url(../img/social.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 132px;
+    height: 51px;
+    top: 2115px;
+    left: 1063px;
+    position: absolute;
+}
