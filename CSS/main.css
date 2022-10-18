@@ -504,7 +504,6 @@ position: relative;
     grid-template-columns: calc(100%/6) calc(100%/6) calc(100%/6) calc(100%/6) calc(100%/6) calc(100%/6);
     flex-wrap: wrap;
     position: relative;
-    border: #FF4343 solid 1px;
     width: 1510px;
     margin: auto;
 }
@@ -515,7 +514,7 @@ position: relative;
     background-size: contain;
     Width: 378px;
     Height: 340px;
-    top: 125px;
+    top: 747px;
     left: 0px;
 position: absolute;
 }
@@ -526,7 +525,7 @@ position: absolute;
     background-size: contain;
     Width: 378px;
     Height: 340px;
-    top: 125px;
+    top: 747px;
     left: 378px;
     position: absolute;
 }
@@ -536,17 +535,70 @@ position: absolute;
     background-size: contain;
     Width: 378px;
     Height: 340px;
-    top: 125px;
+    top: 747px;
     left: 756px;
     position: absolute;
 }
+
+.block3__img3:hover{
+
+    Width: 378px;
+    Height: 340px;
+    top: 747px;
+    left: 756px;
+    position: absolute;
+    background-color: rgba(255, 67, 67, 0.8);
+    background-blend-mode: multiply;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+
+.block3__item3_top{
+    margin-left: 99px;
+    margin-top: 127px;
+position: absolute;
+
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 900;
+font-size: 24px;
+line-height: 28px;
+
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+
+color: #FFFFFF;
+}
+
+.block3__item3_center{
+    margin-left: 99px;
+    margin-top: 192px;
+    position: absolute;
+
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #FFFFFF;
+}
+
 .block3__img4{
     background-image:url(../img/work_4.png);
     background-repeat: no-repeat;
     background-size: contain;
     Width: 378px;
     Height: 340px;
-    top: 125px;
+    top: 747px;
     left: 1134px;
     position: absolute;
 }
@@ -556,7 +608,7 @@ position: absolute;
     background-size: contain;
     Width: 378px;
     Height: 340px;
-    top: 340px;
+    top: 1087px;
     left: 0px;
     position: absolute;
 }
@@ -566,7 +618,7 @@ position: absolute;
     background-size: contain;
     Width: 378px;
     Height: 340px;
-    top: 340px;
+    top: 1087px;
     left: 378px;
     position: absolute;
 }
@@ -576,7 +628,7 @@ position: absolute;
     background-size: contain;
     Width: 378px;
     Height: 340px;
-    top: 340px;
+    top: 1087px;
     left: 756px;
     position: absolute;
 }
@@ -586,7 +638,7 @@ position: absolute;
     background-size: contain;
     Width: 378px;
     Height: 340px;
-    top: 340px;
+    top: 1087px;
     left: 1134px;
     position: absolute;
 }
