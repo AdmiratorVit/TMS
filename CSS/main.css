@@ -188,6 +188,7 @@ h1{
 }
 
 
+
 /* Desktop */
 @media screen and (min-width: 1510px)  {
 .header__nav__lorem{
@@ -196,6 +197,9 @@ h1{
     font-size: 24px;
     line-height: 28px;
     width: 1030px;
+}
+.header__nav__lorem::before {
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna vel scelerisque nisl consectetur et.";
 }
 }
         
@@ -207,7 +211,9 @@ h1{
     font-size: 18px;
     line-height: 22px;
     width: 770px;
-    /* content: "Yay!"; */
+}
+.header__nav__lorem::before {
+    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna vel scelerisque nisl consectetur et.";
 }
 }
 
