@@ -1257,10 +1257,24 @@ position: absolute;
 }
 
 .parent4{
-    height: 747px;
-    width: 1510px;
     margin: auto;
     position: relative;
+}
+
+/* Desktop */
+@media screen and (min-width: 1510px)  {
+    .parent4{
+        height: 747px;
+        width: 1510px;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 1024px) and (max-width: 1509px) {
+    .parent4{
+        height: 768px;
+        width: 1024px;
+    }
 }
 
 .block4{
@@ -1268,105 +1282,226 @@ position: absolute;
     grid-template-columns: 25% 25% 25% 25%;
     flex-wrap: wrap;
     position: relative;
-
-    width: 1510px;
     margin: auto;
+}
 
+/* Desktop */
+@media screen and (min-width: 1510px)  {
+    .block4{
+        width: 1510px;
+        left: 5px;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 1024px) and (max-width: 1509px) {
+    .block4{
+        width: 1024px;
+    }
 }
 
 .block4__item1_pic{
     background-image:url(../img/Rectangle\ 24.png);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 270px;
-    height: 270px;
-    top: 1538px;
-    left: 166px;
     position: absolute;
+}
+
+/* Desktop */
+@media screen and (min-width: 1510px)  {
+    .block4__item1_pic{
+        width: 270px;
+        height: 270px;
+        top: 1538px;
+        left: 166px;
+    }
+}
+
+/* Tablet */
+    @media screen and (min-width: 1024px) and (max-width: 1509px) {
+        .block4__item1_pic{
+            width: 227px;
+            height: 227px;
+            top: 1021px;
+            left: 20px;
+        }
 }
 
 .block4__item2_pic{
     background-image:url(../img/Rectangle\ 25.png);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 270px;
-    height: 270px;
-    top: 1538px;
-    left: 466px;
     position: absolute;
+}
+
+/* Desktop */
+@media screen and (min-width: 1510px)  {
+    .block4__item2_pic{
+        width: 270px;
+        height: 270px;
+        top: 1538px;
+        left: 466px;
+    }
+}
+
+/* Tablet */
+    @media screen and (min-width: 1024px) and (max-width: 1509px) {
+        .block4__item2_pic{
+            width: 227px;
+            height: 227px;
+            top: 1021px;
+            left: 273px;
+        }
 }
 
 .block4__item3_pic{
     background-image:url(../img/Rectangle\ 26.png);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 270px;
-    height: 270px;
-    top: 1538px;
-    left: 766px;
     position: absolute;
+}
+
+/* Desktop */
+@media screen and (min-width: 1510px)  {
+    .block4__item3_pic{
+        width: 270px;
+        height: 270px;
+        top: 1021px;
+        left: 766px;
+    }
+}
+
+/* Tablet */
+    @media screen and (min-width: 1024px) and (max-width: 1509px) {
+        .block4__item3_pic{
+            width: 227px;
+            height: 227px;
+            top: 1021px;
+            left: 525px;
+        }
 }
 
 .block4__item4_pic{
     background-image:url(../img/Rectangle\ 27.png);
     background-repeat: no-repeat;
     background-size: contain;
-    width: 270px;
-    height: 270px;
-    top: 1538px;
-    left: 1066px;
     position: absolute;
+}
+
+/* Desktop */
+@media screen and (min-width: 1510px)  {
+    .block4__item4_pic{
+        width: 270px;
+        height: 270px;
+        top: 1538px;
+        left: 1066px;
+    }
+}
+
+/* Tablet */
+    @media screen and (min-width: 1024px) and (max-width: 1509px) {
+        .block4__item4_pic{
+            width: 227px;
+            height: 227px;
+            top: 1021px;
+            left: 777px;
+        }
 }
 
 .block4__item1_name{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
     line-height: 28px;
     display: flex;
     align-items: center;
     text-transform: capitalize;
     color: #2D3033;
+    position: absolute;
     width: 270px;
     height: 270px;
-    top: 1718px;
-    left: 166px;
-    position: absolute;
+}
+
+/* Desktop */
+@media screen and (min-width: 1510px)  {
+    .block4__item1_name{
+        font-size: 24px;
+        top: 1718px;
+        left: 166px;
+    }
+}
+
+/* Tablet */
+    @media screen and (min-width: 1024px) and (max-width: 1509px) {
+        .block4__item1_name{
+            font-size: 18px;
+            top: 1152px;
+            left: 20px;
+        }
 }
 
 .block4__item2_name{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
     line-height: 28px;
     display: flex;
     align-items: center;
     text-transform: capitalize;
     color: #2D3033;
+    position: absolute;
     width: 270px;
     height: 270px;
-    top: 1718px;
-    left: 466px;
-    position: absolute;
+}
+
+/* Desktop */
+@media screen and (min-width: 1510px)  {
+    .block4__item2_name{
+        font-size: 24px;
+        top: 1718px;
+        left: 466px;
+    }
+}
+
+/* Tablet */
+    @media screen and (min-width: 1024px) and (max-width: 1509px) {
+        .block4__item2_name{
+            font-size: 18px;
+            top: 1152px;
+            left: 273px;
+        }
 }
 
 .block4__item3_name{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
     line-height: 28px;
     display: flex;
     align-items: center;
     text-transform: capitalize;
     color: #2D3033;
+    position: absolute;
     width: 270px;
     height: 270px;
-    top: 1718px;
-    left: 766px;
-    position: absolute;
+}
+
+/* Desktop */
+@media screen and (min-width: 1510px)  {
+    .block4__item3_name{
+        font-size: 24px;
+        top: 1718px;
+        left: 766px;
+    }
+}
+
+/* Tablet */
+    @media screen and (min-width: 1024px) and (max-width: 1509px) {
+        .block4__item3_name{
+            font-size: 18px;
+            top: 1152px;
+            left: 525px;
+        }
 }
 
 .block4__item4_name{
@@ -1379,11 +1514,27 @@ position: absolute;
     align-items: center;
     text-transform: capitalize;
     color: #2D3033;
+    position: absolute;
     width: 270px;
     height: 270px;
-    top: 1718px;
-    left: 1066px;
-    position: absolute;
+}
+
+/* Desktop */
+@media screen and (min-width: 1510px)  {
+    .block4__item4_name{
+        font-size: 24px;
+        top: 1718px;
+        left: 1066px;
+    }
+}
+
+/* Tablet */
+    @media screen and (min-width: 1024px) and (max-width: 1509px) {
+        .block4__item4_name{
+            font-size: 18px;
+            top: 1152px;
+            left: 777px;
+        }
 }
 
 .block4__item1_position{
