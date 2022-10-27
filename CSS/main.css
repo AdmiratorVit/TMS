@@ -9,9 +9,11 @@
 @media screen and (min-width: 1510px)  {
     .parent{
         width: 1510px;
+        height: 747px;
     }  
     .header{
         width: 1510px;
+        height: 747px;
     }  
 }
 
@@ -19,14 +21,25 @@
 @media screen and (min-width: 1024px) and (max-width: 1509px)  {
     .parent{
         width: 1024px;
+        height: 768px;
     }  
     .header{
         width: 1024px;
+        height: 768px;
+    }  
+}
+
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 1023px)  {
+    .parent{
+        width: 320px;
+    }  
+    .header{
+        width: 320px;
     }  
 }
 
 .parent{
-    height: 747px;
     margin: 0 auto;
     position: relative;
 }
@@ -355,7 +368,6 @@ a:hover{
 /* Tablet */
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
     .parent_2{
-        height: 768px;
         width: 1024px;
         margin-top: 107px;
     }
@@ -1262,14 +1274,14 @@ a:hover{
     }
 }
 
-.parent4{
+.parent_4{
     margin: auto;
     position: relative;
 }
 
 /* Desktop */
 @media screen and (min-width: 1510px)  {
-    .parent4{
+    .parent_4{
         height: 747px;
         width: 1510px;
     }
@@ -1277,9 +1289,9 @@ a:hover{
 
 /* Tablet */
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
-    .parent4{
-        height: 768px;
+    .parent_4{
         width: 1024px;
+        top: 171px;
     }
 }
 
@@ -1912,14 +1924,14 @@ a:hover{
     }
 }
 
-.parent5{
+.parent_5{
     margin: auto;
     position: relative;
 }
 
 /* Desktop */
 @media screen and (min-width: 1510px)  {
-    .parent5{
+    .parent_5{
         height: 747px;
         width: 1510px;
     }
@@ -1927,8 +1939,7 @@ a:hover{
         
 /* Tablet */
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
-    .parent5{
-        height: 768px;
+    .parent_5{
         width: 1024px;
     }
 }
@@ -1943,7 +1954,7 @@ a:hover{
 @media screen and (min-width: 1510px)  {
     .block5{
         width: 1510px;
-        top: 1728px;
+        top: 981px;
     }
 }
         
@@ -1951,7 +1962,7 @@ a:hover{
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
     .block5{
         width: 1024px;
-        top: 965px;
+        top: 1135px;
     }
 }
 
@@ -2052,7 +2063,7 @@ a:hover{
         font-size: 13px;
         line-height: 15px;
         top: 353px;
-        left: 869px;
+        left: 871px;
     }
 }
         
@@ -2066,14 +2077,14 @@ a:hover{
     }
 }
 
-.parent6{
+.parent_6{
     margin: auto;
     position: relative;
 }
 
 /* Desktop */
 @media screen and (min-width: 1510px)  {
-    .parent6{
+    .parent_6{
         height: 747px;
         width: 1510px;
     }
@@ -2081,8 +2092,7 @@ a:hover{
         
 /* Tablet */
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
-    .parent6{
-        height: 768px;
+    .parent_6{
         width: 1024px;
     }
 }
@@ -2096,7 +2106,7 @@ a:hover{
 /* Desktop */
 @media screen and (min-width: 1510px)  {
     .block6{
-        top: 2028px;
+        top: 534px;
         width: 1510px;
     }
 }
@@ -2104,7 +2114,7 @@ a:hover{
 /* Tablet */
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
     .block6{
-        top: 1098px;
+        top: 1269px;
         width: 1024px;
     }
 }
@@ -2369,7 +2379,7 @@ a:hover{
     .block7{
         width: 1510px;
         height: 340px;
-        top: 2715px;
+        top: 474px;
     }
 }
         
@@ -2571,23 +2581,21 @@ a:hover{
     }
 }
 
-.parent8{
+.parent_8{
     margin: auto;
     position: relative;
 }
 
 /* Desktop */
 @media screen and (min-width: 1510px)  {
-    .parent8{
-        height: 747px;
+    .parent_8{
         width: 1510px;
     }
 }
         
 /* Tablet */
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
-    .parent8{
-        height: 768px;
+    .parent_8{
         width: 1024px;
     }
 }
@@ -2609,13 +2617,12 @@ a:hover{
     .block8{
         width: 1510px;
         height: 90px;
-        top: 4459px;
+        top: 384px;
         font-size: 18px;
         line-height: 21px;
         padding-top: 24px;
         padding-left: 570px;
         padding-right: 570px;
-        left: 37px;
     }
 }
         
@@ -2629,7 +2636,7 @@ a:hover{
         padding-top: 14px;
         padding-left: 355px;
         padding-right: 355px;
-        top: 3482px;
+        top: 1626px;
     }
 }
 
