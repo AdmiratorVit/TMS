@@ -339,11 +339,26 @@ a:hover{
     color: #FFFFFF;}
  
 .parent_2{
-    height: 747px;
-    width: 1510px;
     margin: auto;
     position: relative;
-    padding-top: 125px;
+}
+
+/* Desktop */
+@media screen and (min-width: 1510px)  {
+    .parent_2{
+        height: 747px;
+        width: 1510px;
+        padding-top: 125px;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 1024px) and (max-width: 1509px) {
+    .parent_2{
+        height: 768px;
+        width: 1024px;
+        margin-top: 107px;
+    }
 }
 
 .block2{
@@ -351,13 +366,13 @@ a:hover{
     flex-wrap: wrap;
     position: relative;
     margin: auto;
-    justify-content: center;
 }
 
 /* Desktop */
 @media screen and (min-width: 1510px)  {
     .block2{
         width: 1510px;
+        justify-content: center;
     }
 }
 
@@ -365,23 +380,43 @@ a:hover{
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
     .block2{
         width: 1024px;
+        justify-content: space-evenly;
     }
 }
 
-.block2__item1{
-    width: 400px;
-/* justify-content: center; */
+/* Desktop */
+@media screen and (min-width: 1510px)  {
+    .block2__item1{
+        width: 450px;}
+    .block2__item2{
+        width: 450px;}
+    .block2__item3{
+        width: 450px;}
+    .block2__item4{
+        width: 450px;}
+    .block2__item5{
+        width: 450px;}
+    .block2__item6{
+        width: 450px;}
 }
-.block2__item2{
-    width: 400px;}
-.block2__item3{
-    width: 400px;}
-.block2__item4{
-    width: 400px;}
-.block2__item5{
-    width: 400px;}
-.block2__item6{
-    width: 400px;}
+
+/* Tablet */
+@media screen and (min-width: 1024px) and (max-width: 1509px) {
+    .block2__item1{
+        width: 300px;}
+    .block2__item2{
+        width: 300px;}
+    .block2__item3{
+        width: 300px;}
+    .block2__item4{
+        width: 300px;}
+    .block2__item5{
+        width: 300px;}
+    .block2__item6{
+        width: 300px;}
+}
+
+
 
 .block2__item1_top{
     background-image:url(../img/2_1.png);
@@ -548,6 +583,7 @@ a:hover{
         font-size: 18px;
         top: 204px;
         left: 87px;
+        padding: 17px 7px 0 0;
     }
 }
 
@@ -578,6 +614,7 @@ a:hover{
         font-size: 18px;
         top: 204px;
         left: 425px;
+        padding: 17px 0px 0 0;
     }
 }
 
@@ -611,6 +648,7 @@ a:hover{
         font-size: 18px;
         top: 204px;
         left: 772px;
+        padding: 17px 0 0 7px;
     }
 }
 
@@ -642,6 +680,7 @@ a:hover{
         font-size: 18px;
         top: 492px;
         left: 121px;
+        padding: 17px 7px 0 0;
     }
 }
 
@@ -673,6 +712,7 @@ a:hover{
         font-size: 18px;
         top: 492px;
         left: 446px;
+        padding: 17px 0 0 0;
     }
 }
 
@@ -705,6 +745,7 @@ a:hover{
         font-size: 18px;
         top: 492px;
         left: 749px;
+        padding: 17px 0 0 7px;
     }
 }
 
@@ -736,6 +777,9 @@ a:hover{
         font-size: 14px;
         width: 320px;
         line-height: 16px;
+        margin-top: 20px;
+        padding-right: 17px;
+        margin-bottom: 58px;
     }
 }
 
@@ -768,6 +812,9 @@ a:hover{
         font-size: 14px;
         width: 320px;
         line-height: 16px;
+        margin-top: 20px;
+        padding-right: 17px;
+        margin-bottom: 58px;
     }
 }
 
@@ -801,6 +848,9 @@ a:hover{
         font-size: 14px;
         width: 320px;
         line-height: 16px;
+        margin-top: 20px;
+        padding-right: 17px;
+        margin-bottom: 58px;
     }
 }
 
@@ -830,6 +880,9 @@ a:hover{
         font-size: 14px;
         width: 320px;
         line-height: 16px;
+        margin-top: 20px;
+        padding-right: 17px;
+        margin-bottom: 58px;
     }
 }
 
@@ -859,6 +912,9 @@ a:hover{
         font-size: 14px;
         width: 320px;
         line-height: 16px;
+        margin-top: 20px;
+        padding-right: 17px;
+        margin-bottom: 58px;
     }
 }
 
@@ -888,6 +944,9 @@ a:hover{
         font-size: 14px;
         width: 320px;
         line-height: 16px;
+        margin-top: 20px;
+        padding-right: 17px;
+        margin-bottom: 58px;
     }
 }
 
@@ -934,7 +993,6 @@ a:hover{
     .block3__img1{
         Width: 256px;
         Height: 230px;
-        top: 483px;
         left: 1px;
     }
 }
@@ -961,7 +1019,6 @@ a:hover{
     .block3__img2{
         Width: 256px;
         Height: 230px;
-        top: 202px;
         left: 256px;
     }
 }
@@ -988,7 +1045,6 @@ a:hover{
     .block3__img3{
         Width: 256px;
         Height: 230px;
-        top: 483px;
         left: 513px;
     }
 }
@@ -1094,7 +1150,6 @@ a:hover{
     .block3__img4{
         Width: 256px;
         Height: 230px;
-        top: 483px;
         left: 768px;
     }
 }
@@ -1121,7 +1176,7 @@ a:hover{
     .block3__img5{
         Width: 256px;
         Height: 230px;
-        top: 714px;
+        top: 228px;
         left: 1px;
     }
 }
@@ -1148,7 +1203,7 @@ a:hover{
     .block3__img6{
         Width: 256px;
         Height: 230px;
-        top: 714px;
+        top: 228px;
         left: 256px;
     }
 }
@@ -1175,7 +1230,7 @@ a:hover{
     .block3__img7{
         Width: 256px;
         Height: 230px;
-        top: 714px;
+        top: 228px;
         left: 513px;
     }
 }
@@ -1202,7 +1257,7 @@ a:hover{
     .block3__img8{
         Width: 256px;
         Height: 230px;
-        top: 714px;
+        top: 228px;
         left: 768px;
     }
 }
@@ -1273,7 +1328,7 @@ a:hover{
         .block4__item1_pic{
             width: 227px;
             height: 227px;
-            top: 1021px;
+            top: 365px;
             left: 20px;
         }
 }
@@ -1300,7 +1355,7 @@ a:hover{
         .block4__item2_pic{
             width: 227px;
             height: 227px;
-            top: 1021px;
+            top: 365px;
             left: 273px;
         }
 }
@@ -1327,7 +1382,7 @@ a:hover{
     .block4__item3_pic{
         width: 227px;
         height: 227px;
-        top: 1021px;
+        top: 365px;
         left: 525px;
     }
 }
@@ -1354,7 +1409,7 @@ a:hover{
     .block4__item4_pic{
         width: 227px;
         height: 227px;
-        top: 1021px;
+        top: 365px;
         left: 777px;
     }
 }
@@ -1386,7 +1441,7 @@ a:hover{
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
     .block4__item1_name{
         font-size: 18px;
-        top: 1152px;
+        top: 496px;
         left: 20px;
     }
 }
@@ -1418,7 +1473,7 @@ a:hover{
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
     .block4__item2_name{
         font-size: 18px;
-        top: 1152px;
+        top: 496px;
         left: 273px;
     }
 }
@@ -1450,7 +1505,7 @@ a:hover{
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
     .block4__item3_name{
         font-size: 18px;
-        top: 1152px;
+        top: 496px;
         left: 525px;
     }
 }
@@ -1483,7 +1538,7 @@ a:hover{
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
     .block4__item4_name{
         font-size: 18px;
-        top: 1152px;
+        top: 496px;
         left: 777px;
     }
 }
@@ -1513,7 +1568,7 @@ a:hover{
 /* Tablet */
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
     .block4__item1_position{
-        top: 1301px;
+        top: 645px;
         left: 20px;
         font-size: 14px;
     }
@@ -1545,7 +1600,7 @@ a:hover{
 /* Tablet */
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
     .block4__item2_position{
-        top: 1301px;
+        top: 645px;
         left: 272px;
         font-size: 14px;
     }
@@ -1577,7 +1632,7 @@ a:hover{
 /* Tablet */
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
     .block4__item3_position{
-        top: 1301px;
+        top: 645px;
         left: 525px;
         font-size: 14px;
     }
@@ -1609,7 +1664,7 @@ a:hover{
 /* Tablet */
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
     .block4__item4_position{
-        top: 1301px;
+        top: 645px;
         left: 777px;
         font-size: 14px;
     }
@@ -1641,7 +1696,7 @@ a:hover{
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
     .block4__item1_txt{
         width: 227px;
-        top: 1342px;
+        top: 685px;
         left: 20px;
         font-size: 14px;
         line-height: 16px;
@@ -1673,7 +1728,7 @@ a:hover{
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
     .block4__item2_txt{
         width: 227px;
-        top: 1342px;
+        top: 685px;
         left: 272px;
         font-size: 14px;
         line-height: 16px;
@@ -1705,7 +1760,7 @@ a:hover{
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
     .block4__item3_txt{
         width: 227px;
-        top: 1342px;
+        top: 685px;
         left: 525px;
         font-size: 14px;
         line-height: 16px;
@@ -1737,7 +1792,7 @@ a:hover{
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
     .block4__item4_txt{
         width: 227px;
-        top: 1342px;
+        top: 685px;
         left: 777px;
         font-size: 14px;
         line-height: 16px;
@@ -1767,7 +1822,7 @@ a:hover{
     .block4__item1_SS{
         width: 132px;
         height: 51px;
-        top: 1503px;
+        top: 846px;
         left: 8px;
         scale: 85%;
     }
@@ -1795,7 +1850,7 @@ a:hover{
     .block4__item2_SS{
         width: 132px;
         height: 51px;
-        top: 1503px;
+        top: 846px;
         left: 260px;
         scale: 85%;
     }
@@ -1823,7 +1878,7 @@ a:hover{
     .block4__item3_SS{
         width: 132px;
         height: 51px;
-        top: 1503px;
+        top: 846px;
         left: 513px;
         scale: 85%;
     }
@@ -1851,7 +1906,7 @@ a:hover{
     .block4__item4_SS{
         width: 132px;
         height: 51px;
-        top: 1503px;
+        top: 846px;
         left: 765px;
         scale: 85%;
     }
@@ -1896,7 +1951,7 @@ a:hover{
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
     .block5{
         width: 1024px;
-        top: 1623px;
+        top: 965px;
     }
 }
 
@@ -1975,9 +2030,8 @@ a:hover{
         font-size: 24px;
         line-height: 32px;
         top: 62px;
-        left: 588px;
+        left: 590px;
         padding-right: 80px;
-        letter-spacing: -0.6px;
     }
 }
 
@@ -2050,7 +2104,7 @@ a:hover{
 /* Tablet */
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
     .block6{
-        top: 1756px;
+        top: 1098px;
         width: 1024px;
     }
 }
@@ -2324,7 +2378,7 @@ a:hover{
     .block7{
         width: 1024px;
         height: 229px;
-        top: 2347px;
+        top: 1692px;
     }
 }
 
@@ -2575,7 +2629,7 @@ a:hover{
         padding-top: 14px;
         padding-left: 355px;
         padding-right: 355px;
-        top: 3463px;
+        top: 3482px;
     }
 }
 
