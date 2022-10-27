@@ -820,6 +820,7 @@ a:hover{
         font-size: 18px;
         width: 370px;
         line-height: 21px;
+        padding: 43px 0 0 0;
     }
 }
 
@@ -848,6 +849,7 @@ a:hover{
         font-size: 18px;
         width: 370px;
         line-height: 21px;
+        padding: 43px 0 0 0;
     }
 }
 
@@ -876,6 +878,7 @@ a:hover{
         font-size: 18px;
         width: 370px;
         line-height: 21px;
+        padding: 43px 0 0 0;
     }
 }
 
@@ -914,7 +917,7 @@ a:hover{
     background-image:url(../img/work_1.png);
     background-repeat: no-repeat;
     background-size: contain;
-position: absolute;
+    position: absolute;
 }
 
 /* Desktop */
@@ -922,8 +925,7 @@ position: absolute;
     .block3__img1{
         Width: 378px;
         Height: 340px;
-        top: 747px;
-        left: 0px;
+        top: 202px;
     }
 }
 
@@ -941,7 +943,6 @@ position: absolute;
     background-image:url(../img/work_2.png);
     background-repeat: no-repeat;
     background-size: contain;
-
     position: absolute;
 }
 
@@ -950,7 +951,7 @@ position: absolute;
     .block3__img2{
         Width: 378px;
         Height: 340px;
-        top: 747px;
+        top: 202px;
         left: 378px;
     }
 }
@@ -960,7 +961,7 @@ position: absolute;
     .block3__img2{
         Width: 256px;
         Height: 230px;
-        top: 483px;
+        top: 202px;
         left: 256px;
     }
 }
@@ -977,7 +978,7 @@ position: absolute;
     .block3__img3{
         Width: 378px;
         Height: 340px;
-        top: 747px;
+        top: 202px;
         left: 756px;
     }
 }
@@ -1083,7 +1084,7 @@ position: absolute;
     .block3__img4{
         Width: 378px;
         Height: 340px;
-        top: 747px;
+        top: 202px;
         left: 1134px;
     }
 }
@@ -1110,7 +1111,7 @@ position: absolute;
     .block3__img5{
         Width: 378px;
         Height: 340px;
-        top: 1087px;
+        top: 542px;
         left: 0px;
     }
 }
@@ -1137,7 +1138,7 @@ position: absolute;
     .block3__img6{
         Width: 378px;
         Height: 340px;
-        top: 1087px;
+        top: 542px;
         left: 378px;
     }
 }
@@ -1164,7 +1165,7 @@ position: absolute;
     .block3__img7{
         Width: 378px;
         Height: 340px;
-        top: 1087px;
+        top: 542px;
         left: 756px;
     }
 }
@@ -1191,7 +1192,7 @@ position: absolute;
     .block3__img8{
         Width: 378px;
         Height: 340px;
-        top: 1087px;
+        top: 542px;
         left: 1134px;
     }
 }
@@ -1262,7 +1263,7 @@ position: absolute;
     .block4__item1_pic{
         width: 270px;
         height: 270px;
-        top: 1538px;
+        top: 995px;
         left: 166px;
     }
 }
@@ -1289,7 +1290,7 @@ position: absolute;
     .block4__item2_pic{
         width: 270px;
         height: 270px;
-        top: 1538px;
+        top: 995px;
         left: 466px;
     }
 }
@@ -1316,7 +1317,7 @@ position: absolute;
     .block4__item3_pic{
         width: 270px;
         height: 270px;
-        top: 1538px;
+        top: 995px;
         left: 766px;
     }
 }
@@ -1343,7 +1344,7 @@ position: absolute;
     .block4__item4_pic{
         width: 270px;
         height: 270px;
-        top: 1538px;
+        top: 995px;
         left: 1066px;
     }
 }
@@ -1376,7 +1377,7 @@ position: absolute;
 @media screen and (min-width: 1510px)  {
     .block4__item1_name{
         font-size: 24px;
-        top: 1718px;
+        top: 1175px;
         left: 166px;
     }
 }
@@ -1408,7 +1409,7 @@ position: absolute;
 @media screen and (min-width: 1510px)  {
     .block4__item2_name{
         font-size: 24px;
-        top: 1718px;
+        top: 1175px;
         left: 466px;
     }
 }
@@ -1440,7 +1441,7 @@ position: absolute;
 @media screen and (min-width: 1510px)  {
     .block4__item3_name{
         font-size: 24px;
-        top: 1718px;
+        top: 1175px;
         left: 766px;
     }
 }
@@ -1473,7 +1474,7 @@ position: absolute;
 @media screen and (min-width: 1510px)  {
     .block4__item4_name{
         font-size: 24px;
-        top: 1718px;
+        top: 1175px;
         left: 1066px;
     }
 }
@@ -1503,7 +1504,7 @@ position: absolute;
 @media screen and (min-width: 1510px)  {
     .block4__item1_position{
         width: 270px;
-        top: 1874px;
+        top: 1330px;
         left: 166px;
         font-size: 18px;
     }
@@ -1535,7 +1536,7 @@ position: absolute;
 @media screen and (min-width: 1510px)  {
     .block4__item2_position{
         width: 270px;
-        top: 1874px;
+        top: 1330px;
         left: 466px;
         font-size: 18px;
     }
@@ -1567,7 +1568,7 @@ position: absolute;
 @media screen and (min-width: 1510px)  {
     .block4__item3_position{
         width: 270px;
-        top: 1874px;
+        top: 1330px;
         left: 766px;
         font-size: 18px;
     }
@@ -1599,7 +1600,7 @@ position: absolute;
 @media screen and (min-width: 1510px)  {
     .block4__item4_position{
         width: 270px;
-        top: 1874px;
+        top: 1330px;
         left: 1066px;
         font-size: 18px;
     }
@@ -1629,7 +1630,7 @@ position: absolute;
 @media screen and (min-width: 1510px)  {
     .block4__item1_txt{
         width: 270px;
-        top: 1914px;
+        top: 1369px;
         left: 166px;
         font-size: 18px;
         line-height: 21px;
@@ -1661,7 +1662,7 @@ position: absolute;
 @media screen and (min-width: 1510px)  {
     .block4__item2_txt{
         width: 270px;
-        top: 1914px;
+        top: 1369px;
         left: 466px;
         font-size: 18px;
         line-height: 21px;
@@ -1693,7 +1694,7 @@ position: absolute;
 @media screen and (min-width: 1510px)  {
     .block4__item3_txt{
         width: 270px;
-        top: 1914px;
+        top: 1369px;
         left: 766px;
         font-size: 18px;
         line-height: 21px;
@@ -1725,7 +1726,7 @@ position: absolute;
 @media screen and (min-width: 1510px)  {
     .block4__item4_txt{
         width: 270px;
-        top: 1914px;
+        top: 1369px;
         left: 1066px;
         font-size: 18px;
         line-height: 21px;
@@ -1755,8 +1756,9 @@ position: absolute;
     .block4__item1_SS{
         width: 132px;
         height: 51px;
-        top: 2115px;
-        left: 163px;
+        top: 1572px;
+        left: 164px;
+    
     }
 }
 
@@ -1783,8 +1785,8 @@ position: absolute;
     .block4__item2_SS{
         width: 132px;
         height: 51px;
-        top: 2115px;
-        left: 463px;
+        top: 1572px;
+        left: 465px;
     }
 }
 
@@ -1811,8 +1813,8 @@ position: absolute;
     .block4__item3_SS{
         width: 132px;
         height: 51px;
-        top: 2115px;
-        left: 763px;
+        top: 1572px;
+        left: 765px;
     }
 }
 
@@ -1839,8 +1841,8 @@ position: absolute;
     .block4__item4_SS{
         width: 132px;
         height: 51px;
-        top: 2115px;
-        left: 1063px;
+        top: 1572px;
+        left: 1065px;
     }
 }
 
@@ -1886,7 +1888,7 @@ position: absolute;
 @media screen and (min-width: 1510px)  {
     .block5{
         width: 1510px;
-        top: 2200px;
+        top: 1728px;
     }
 }
         
@@ -1962,7 +1964,7 @@ position: absolute;
         font-size: 36px;
         line-height: 49px;
         top: 133px;
-        left: 863px;
+        left: 871px;
         padding-right: 175px;
     }
 }
@@ -2040,7 +2042,7 @@ position: absolute;
 /* Desktop */
 @media screen and (min-width: 1510px)  {
     .block6{
-        top: 2500px;
+        top: 2028px;
         width: 1510px;
     }
 }
@@ -2114,27 +2116,6 @@ position: absolute;
         font-size: 14px;
         line-height: 16px;
     }
-}
-
-.block6__item1_button{
-    position: absolute;
-    background: #FF4343;
-    height: 77.57575988769531px;
-    width: 369px;
-    left: 571px;
-    top: 495px;
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 24px;
-    line-height: 28px;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    border: none;
-    padding-top: 24px;
-
 }
 
 .cir1{
@@ -2284,7 +2265,6 @@ position: absolute;
         width: 369px;
         left: 571px;
         top: 495px;
-        padding-top: 11px;
         font-size: 24px;
     }
 }
@@ -2303,23 +2283,20 @@ position: absolute;
     background: #c9b9b9;
     }
     
-.parent7{
+.parent_7{
     margin: auto;
-    position: relative;
 }
 
 /* Desktop */
 @media screen and (min-width: 1510px)  {
-    .parent7{
-        height: 747px;
+    .parent_7{
         width: 1510px;
     }
 }
         
 /* Tablet */
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
-    .parent7{
-        height: 768px;
+    .parent_7{
         width: 1024px;
     }
 }
@@ -2338,7 +2315,7 @@ position: absolute;
     .block7{
         width: 1510px;
         height: 340px;
-        top: 3187px;
+        top: 2715px;
     }
 }
         
@@ -2578,7 +2555,7 @@ position: absolute;
     .block8{
         width: 1510px;
         height: 90px;
-        top: 4384px;
+        top: 4459px;
         font-size: 18px;
         line-height: 21px;
         padding-top: 24px;
