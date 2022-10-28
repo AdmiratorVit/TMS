@@ -142,8 +142,10 @@ h1{
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
     h1{
         font-size: 48px;
-        padding-top: 28px;
+        padding-top: 270px;
         line-height: 56px;
+        width: 984px;
+        height: 112px;
     } 
 }
 
@@ -299,6 +301,13 @@ h1{
         width: 984px;
         left: 20px;
         top: 100px;
+    }
+}
+
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 1023px)  {
+    .header__line{
+        display: none;
     }
 }
 
@@ -1690,6 +1699,13 @@ a:hover{
     }
 }
 
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 1023px)  {
+    .block4{
+        width: 320px;
+    }
+}
+
 .block4__item1_pic{
     background-image:url(../img/Rectangle\ 24.png);
     background-repeat: no-repeat;
@@ -1715,6 +1731,18 @@ a:hover{
             top: 365px;
             left: 20px;
         }
+}
+
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 1023px)  {
+    .block4__item1_pic{
+        width: 280px;
+        height: 227px;
+        top: 441px;
+        left: 20px;
+        background-size: cover;
+        background-position: center;
+    }
 }
 
 .block4__item2_pic{
@@ -1744,6 +1772,18 @@ a:hover{
         }
 }
 
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 1023px)  {
+    .block4__item2_pic{
+        width: 280px;
+        height: 227px;
+        top: 1018px;
+        left: 20px;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
 .block4__item3_pic{
     background-image:url(../img/Rectangle\ 26.png);
     background-repeat: no-repeat;
@@ -1768,6 +1808,18 @@ a:hover{
         height: 227px;
         top: 365px;
         left: 525px;
+    }
+}
+
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 1023px)  {
+    .block4__item3_pic{
+        width: 280px;
+        height: 227px;
+        top: 1594px;
+        left: 20px;
+        background-size: cover;
+        background-position: center;
     }
 }
 
@@ -1798,6 +1850,18 @@ a:hover{
     }
 }
 
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 1023px)  {
+    .block4__item4_pic{
+        width: 280px;
+        height: 227px;
+        top: 2171px;
+        left: 20px;
+        background-size: cover;
+        background-position: center;
+    }
+}
+
 .block4__item1_name{
     font-family: 'Raleway';
     font-style: normal;
@@ -1809,14 +1873,13 @@ a:hover{
     color: #2D3033;
     position: absolute;
     width: 270px;
-    height: 270px;
 }
 
 /* Desktop */
 @media screen and (min-width: 1510px)  {
     .block4__item1_name{
         font-size: 24px;
-        top: 1175px;
+        top: 1290px;
         left: 166px;
     }
 }
@@ -1825,8 +1888,19 @@ a:hover{
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
     .block4__item1_name{
         font-size: 18px;
-        top: 496px;
+        top: 614px;
         left: 20px;
+        width: 227px;
+    }
+}
+
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 1023px)  {
+    .block4__item1_name{
+        font-size: 18px;
+        top: 693px;
+        left: 21px;
+        text-transform: capitalize;
     }
 }
 
@@ -1841,14 +1915,13 @@ a:hover{
     color: #2D3033;
     position: absolute;
     width: 270px;
-    height: 270px;
 }
 
 /* Desktop */
 @media screen and (min-width: 1510px)  {
     .block4__item2_name{
         font-size: 24px;
-        top: 1175px;
+        top: 1290px;
         left: 466px;
     }
 }
@@ -1857,8 +1930,19 @@ a:hover{
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
     .block4__item2_name{
         font-size: 18px;
-        top: 496px;
+        top: 614px;
         left: 273px;
+        width: 227px;
+    }
+}
+
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 1023px)  {
+    .block4__item2_name{
+        font-size: 18px;
+        top: 1148px;
+        left: 21px;
+        text-transform: capitalize;
     }
 }
 
@@ -1873,14 +1957,13 @@ a:hover{
     color: #2D3033;
     position: absolute;
     width: 270px;
-    height: 270px;
 }
 
 /* Desktop */
 @media screen and (min-width: 1510px)  {
     .block4__item3_name{
         font-size: 24px;
-        top: 1175px;
+        top: 1290px;
         left: 766px;
     }
 }
@@ -1889,8 +1972,19 @@ a:hover{
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
     .block4__item3_name{
         font-size: 18px;
-        top: 496px;
+        top: 614px;
         left: 525px;
+        width: 227px;
+    }
+}
+
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 1023px)  {
+    .block4__item3_name{
+        font-size: 18px;
+        top: 1724px;
+        left: 21px;
+        text-transform: capitalize;
     }
 }
 
@@ -1898,7 +1992,6 @@ a:hover{
     font-family: 'Raleway';
     font-style: normal;
     font-weight: 700;
-    font-size: 24px;
     line-height: 28px;
     display: flex;
     align-items: center;
@@ -1906,14 +1999,13 @@ a:hover{
     color: #2D3033;
     position: absolute;
     width: 270px;
-    height: 270px;
 }
 
 /* Desktop */
 @media screen and (min-width: 1510px)  {
     .block4__item4_name{
         font-size: 24px;
-        top: 1175px;
+        top: 1290px;
         left: 1066px;
     }
 }
@@ -1922,8 +2014,19 @@ a:hover{
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
     .block4__item4_name{
         font-size: 18px;
-        top: 496px;
+        top: 614px;
         left: 777px;
+        width: 227px;
+    }
+}
+
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 1023px)  {
+    .block4__item4_name{
+        font-size: 18px;
+        top: 2301px;
+        left: 21px;
+        text-transform: capitalize;
     }
 }
 
@@ -1953,6 +2056,15 @@ a:hover{
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
     .block4__item1_position{
         top: 645px;
+        left: 20px;
+        font-size: 14px;
+    }
+}
+
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 1023px)  {
+    .block4__item1_position{
+        top: 721px;
         left: 20px;
         font-size: 14px;
     }
@@ -1990,6 +2102,15 @@ a:hover{
     }
 }
 
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 1023px)  {
+    .block4__item2_position{
+        top: 1297px;
+        left: 20px;
+        font-size: 14px;
+    }
+}
+
 .block4__item3_position{
     font-family: 'Raleway';
     font-style: normal;
@@ -2018,6 +2139,15 @@ a:hover{
     .block4__item3_position{
         top: 645px;
         left: 525px;
+        font-size: 14px;
+    }
+}
+
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 1023px)  {
+    .block4__item3_position{
+        top: 1874px;
+        left: 20px;
         font-size: 14px;
     }
 }
@@ -2054,6 +2184,14 @@ a:hover{
     }
 }
 
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 1023px)  {
+    .block4__item4_position{
+        top: 2451px;
+        left: 20px;
+        font-size: 14px;
+    }
+}
 
 .block4__item1_txt{
     font-family: 'Raleway';
@@ -2081,6 +2219,17 @@ a:hover{
     .block4__item1_txt{
         width: 227px;
         top: 685px;
+        left: 20px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 1023px)  {
+    .block4__item1_txt{
+        width: 280px;
+        top: 778px;
         left: 20px;
         font-size: 14px;
         line-height: 16px;
@@ -2119,6 +2268,17 @@ a:hover{
     }
 }
 
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 1023px)  {
+    .block4__item2_txt{
+        width: 280px;
+        top: 1354px;
+        left: 20px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
 .block4__item3_txt{
     font-family: 'Raleway';
     font-style: normal;
@@ -2146,6 +2306,17 @@ a:hover{
         width: 227px;
         top: 685px;
         left: 525px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 1023px)  {
+    .block4__item3_txt{
+        width: 280px;
+        top: 1931px;
+        left: 20px;
         font-size: 14px;
         line-height: 16px;
     }
@@ -2183,6 +2354,17 @@ a:hover{
     }
 }
 
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 1023px)  {
+    .block4__item4_txt{
+        width: 280px;
+        top: 2508px;
+        left: 20px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
 .block4__item1_SS{
     background-image:url(../img/social.png);
     background-repeat: no-repeat;
@@ -2209,6 +2391,17 @@ a:hover{
         top: 846px;
         left: 8px;
         scale: 85%;
+    }
+}
+
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 1023px)  {
+    .block4__item1_SS{
+        width: 132px;
+        height: 51px;
+        top: 926px;
+        left: 20px;
+        scale: 100%;
     }
 }
 
@@ -2240,6 +2433,17 @@ a:hover{
     }
 }
 
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 1023px)  {
+    .block4__item2_SS{
+        width: 132px;
+        height: 51px;
+        top: 1502px;
+        left: 20px;
+        scale: 100%;
+    }
+}
+
 .block4__item3_SS{
     background-image:url(../img/social.png);
     background-repeat: no-repeat;
@@ -2265,6 +2469,17 @@ a:hover{
         top: 846px;
         left: 513px;
         scale: 85%;
+    }
+}
+
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 1023px)  {
+    .block4__item3_SS{
+        width: 132px;
+        height: 51px;
+        top: 2079px;
+        left: 20px;
+        scale: 100%;
     }
 }
 
@@ -2296,6 +2511,17 @@ a:hover{
     }
 }
 
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 1023px)  {
+    .block4__item4_SS{
+        width: 132px;
+        height: 51px;
+        top: 2656px;
+        left: 20px;
+        scale: 100%;
+    }
+}
+
 .parent_5{
     margin: auto;
     position: relative;
@@ -2313,6 +2539,14 @@ a:hover{
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
     .parent_5{
         width: 1024px;
+    }
+}
+
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 1023px)  {
+    .parent_5{
+        width: 320px;
+        top: 2905px;
     }
 }
 
@@ -2342,7 +2576,7 @@ a:hover{
 @media screen and (min-width: 320px) and (max-width: 1023px)  {
     .block5{
         width: 320px;
-        top: 1135px;
+        height: 538px;
     }
 }
 
@@ -2371,6 +2605,15 @@ a:hover{
     }
 }
 
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 1023px)  {
+    .block5__item1_pic{
+        width: 320px;
+        Height: 212px;
+    }
+}
+
+
 .block5__item1{
     background: #5C3249;
     Width: 100%;
@@ -2390,6 +2633,14 @@ a:hover{
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
     .block5__item1{
         Height: 332px;
+    }
+}
+
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 1023px)  {
+    .block5__item1{
+        Height: 538px;
+        
     }
 }
 
@@ -2426,6 +2677,18 @@ a:hover{
     }
 }
 
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 1023px)  {
+    .block5__item2_top{
+        font-size: 24px;
+        line-height: 32px;
+        top: 236px;
+        left: 20px;
+        text-align: center;
+        width: 275px;
+    }
+}
+
 .block5__item2_bottom{
     font-family: 'Raleway';
     font-style: normal;
@@ -2454,6 +2717,16 @@ a:hover{
         line-height: 15px;
         top: 205px;
         left: 591px;
+    }
+}
+
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 1023px)  {
+    .block5__item2_bottom{
+        font-size: 12px;
+        line-height: 15px;
+        top: 424px;
+        left: 20px;
     }
 }
 
@@ -2506,6 +2779,14 @@ a:hover{
     }
 }
 
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 1023px)  {
+    .block6{
+        top: 3100px;
+        width: 320px;
+    }
+}
+
 .block6__item1_top{
     font-family: 'Raleway';
     font-style: normal;
@@ -2529,6 +2810,16 @@ a:hover{
         
 /* Tablet */
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
+    .block6__item1_top{
+        top: 325px;
+        left: 240px;
+        font-size: 24px;
+        line-height: 28px;
+    }
+}
+
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 1023px)  {
     .block6__item1_top{
         top: 325px;
         left: 240px;
@@ -2561,6 +2852,16 @@ a:hover{
         
 /* Tablet */
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
+    .block6__item1_center{
+        top: 374px;
+        left: 349px;
+        font-size: 14px;
+        line-height: 16px;
+    }
+}
+
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 1023px)  {
     .block6__item1_center{
         top: 374px;
         left: 349px;
@@ -2730,6 +3031,16 @@ a:hover{
     }
 }
 
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 1023px)  {
+    .btn6{
+        width: 278px;
+        left: 5px;
+        top: 436px;
+        font-size: 18px;
+    }
+}
+
 .btn6:active{
     background: #c9b9b9;
     }
@@ -2749,6 +3060,8 @@ a:hover{
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
     .parent_7{
         width: 1024px;
+        top: 1816px;
+        position: relative;
     }
 }
 /* Mobile */
@@ -2781,7 +3094,7 @@ a:hover{
     .block7{
         width: 1024px;
         height: 229px;
-        top: 1692px;
+        top: 44px;
     }
 }
 
@@ -3035,7 +3348,7 @@ a:hover{
         padding-top: 14px;
         padding-left: 355px;
         padding-right: 355px;
-        top: 1626px;
+        top: 1798px;
     }
 }
 
