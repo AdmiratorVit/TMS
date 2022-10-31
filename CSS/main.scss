@@ -1887,6 +1887,14 @@ h6 {
     }
 }
 
+.carousel-item2 {
+    background-color: #353C65;
+    display: grid;
+    grid-template-columns: 50% 50%;
+
+}
+
+
 .block5__item2_top {
     font-family: 'Cardo';
     font-style: italic;
@@ -1939,7 +1947,6 @@ h6 {
     display: flex;
     align-items: center;
     text-transform: uppercase;
-    color: #FFFFFF;
     position: absolute;
 }
 
@@ -1950,6 +1957,7 @@ h6 {
         line-height: 15px;
         top: 353px;
         left: 871px;
+
     }
 }
 
