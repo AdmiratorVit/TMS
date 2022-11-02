@@ -1254,6 +1254,7 @@ h6 {
 }
 
 .block3__img3 {
+    background-image: url("../img/Rectangle 17.png");
     background-repeat: no-repeat;
     background-size: contain;
     position: absolute;
@@ -2049,7 +2050,7 @@ h6 {
 /* Tablet */
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
     .block6 {
-        top: 667px;
+        top: 300px;
         width: 1024px;
     }
 }
@@ -2345,7 +2346,7 @@ h6 {
 @media screen and (min-width: 1024px) and (max-width: 1509px) {
     .parent_7 {
         width: 1024px;
-        top: 1200px;
+        top: 850px;
         position: relative;
     }
 }
@@ -2392,6 +2393,18 @@ h6 {
         height: 540px;
         justify-items: center;
     }
+}
+.block7__item1_top, .block7__item2_top, .block7__item3_top{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    position: absolute;
 }
 
 /* Desktop */
@@ -2459,18 +2472,7 @@ h6 {
     }
 }
 
-.block7__item1_top .block7__item2_top .block7__item3_top{
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    text-transform: uppercase;
-    color: #FFFFFF;
-    position: absolute;
-}
+
 
 /* Desktop */
 @media screen and (min-width: 1510px) {
@@ -2678,7 +2680,7 @@ h6 {
         padding-top: 14px;
         padding-left: 355px;
         padding-right: 355px;
-        top: 1185px;
+        top: 834px;
     }
 }
 
