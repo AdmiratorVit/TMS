@@ -1631,6 +1631,12 @@ h6 {
     height: 538px;
   }
 }
+/* Mobile */
+@media screen and (min-width: 320px) and (max-width: 1023px) {
+  .carousel-item {
+    height: 470px;
+  }
+}
 .block5__item2_top {
   font-family: "Cardo";
   font-style: italic;
@@ -1725,7 +1731,7 @@ h6 {
 /* Mobile */
 @media screen and (min-width: 320px) and (max-width: 1023px) {
   .carousel-indicators {
-    top: 667px;
+    top: 485px;
   }
 }
 .parent_6 {
