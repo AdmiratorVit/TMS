@@ -432,7 +432,7 @@ h1 {
 }
 
 a:hover {
-    padding-bottom: 38px;
+    padding-bottom: 53px;
     border-bottom: 3px solid #BABBC5;
 }
 
@@ -1221,6 +1221,10 @@ h6 {
     }
 }
 
+.block3__img3 span {
+        display: none;
+}
+
 .block3__img3:hover {
 
     background-color: rgba(255, 67, 67, 0.8);
@@ -1228,16 +1232,22 @@ h6 {
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+    span {
+        display: flex;
+    }
 }
 
 .block3__img3:active {
 
-    position: absolute;
+    //position: absolute;
     background-color: rgba(185, 12, 12, 0.8);
     background-blend-mode: multiply;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
+    span {
+        display: flex;
+    }
 }
 
 .block3__item3_top {
@@ -2721,7 +2731,7 @@ h6 {
 }
 
 #menuToggle input:NOT(checked)~ul {
-    transform: translate(-600px, -46px);
+    transform: translate(-1100px, -46px);
     background-image: url(../img/img_mobile.png);
     background-color: #252B49;
     background-blend-mode: multiply;
